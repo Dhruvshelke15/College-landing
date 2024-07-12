@@ -1,0 +1,79 @@
+.icon-line-container {
+    width: 100%;
+    margin-top: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-image-container {
+    width: 100%;
+    text-align: center;
+}
+
+.top-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.icon-line-box {
+    width: 1017.85px;
+    background-color: #1e00b3;
+    border-radius: 33px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    color: #ffffff;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.icon-container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.icon {
+    font-size: 40px;
+    color: #e6c400;
+    margin-bottom: 5px;
+}
+
+.icon-text {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.dotted-line {
+    border-left: 2px dotted #ffffff;
+    height: 30px;
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.icon-container:last-child .dotted-line {
+    display: none;
+}
+
+.centered-button {
+    margin-top: 20px;
+}

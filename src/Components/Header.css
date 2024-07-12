@@ -1,0 +1,66 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    height: 85.79px;
+    /* width: 1919.27px; */
+    
+
+    background-color: #fff; /* Adjust background color as needed */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Box shadow for the header */
+    border-bottom-left-radius: 30px; /* Adjust radius as needed */
+    border-bottom-right-radius: 30px; /* Adjust radius as needed */
+}
+
+.logo-container {
+    display: flex;
+    /* align-items: center; */
+}
+
+.logo1 {
+    height: 38.12px;
+    width: 302.39px;
+    /* margin-left: 100px; */
+    padding-top: 25.37px;
+    padding-left: 162.61px;
+    background-color: #fff;
+}
+.logo2 {
+    height: 48.28px;
+    width: 87.59px;
+    padding-top: 20.29px;
+    /* padding-left: -506px; */
+    margin-left: 15px;
+    
+}
+
+.get-info-button {
+    background-color: #292967; /* Adjust button color as needed */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 27.08px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 120.44px;
+    height: 54.16px;
+    margin-top: 15.81px;
+    margin-right: 100px;
+    
+}
+
+.vertical-line {
+    width: 3px;
+    height: 30px; 
+    background-color: #181972; 
+    padding-top: 29.29px;
+    border: 2px;
+    margin-left: 15px;
+   
+}
+
+

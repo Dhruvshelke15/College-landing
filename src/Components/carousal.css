@@ -1,0 +1,65 @@
+/* Carousel.css */
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 80px 0;
+  }
+  
+  .carousel {
+    width: 1160px; /* Width for 3 cards with spacing */
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    flex: 0 0 360px; /* Fixed card width */
+    margin-right: 20px; /* Spacing between cards */
+  }
+  
+  .prev,
+.next {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.size-6 {
+  width: 24px;
+  height: 24px;
+}
+  
+  .dots {
+    position: absolute;
+  top: 1840px; /* Position dots below the cards */
+  left: 50%;
+  transform: translateX(-50%); /* Center dots horizontally */
+  display: flex;
+  justify-content: center;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #bbb;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: #555;
+  }
+  
+ 
